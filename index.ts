@@ -1,4 +1,4 @@
-import PDFParser from "pdf2json";
+import PDFParser from "@crit-tech/pdf2json4electron";
 
 export interface PdfTextDetail {
   T: string;

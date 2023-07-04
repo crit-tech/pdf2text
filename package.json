@@ -23,6 +23,6 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "pdf2json": "github:OferElfassi/pdf2jsonForElectron"
+    "@crit-tech/pdf2json4electron": "^3.0.4"
   }
 }
