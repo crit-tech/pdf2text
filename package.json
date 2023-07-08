@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node-esm index.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/crit-tech/pdf2text#readme",
   "devDependencies": {
+    "@types/node": "^20.4.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "@crit-tech/pdf2json4electron": "^3.0.4"
+    "@crit-tech/pdf2json4electron": "^3.0.6"
   }
 }
