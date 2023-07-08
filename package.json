@@ -1,6 +1,6 @@
 {
   "name": "@crit-tech/pdf2text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extracts raw text from PDF (no OCR)",
   "main": "dist/index.js",
   "type": "module",
